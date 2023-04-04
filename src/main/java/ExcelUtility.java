@@ -19,17 +19,17 @@ public class ExcelUtility {
 	 */
 	public static String getDataFromExcel(String SheetName, int Rowno, int ColumnNo) 
 	{
-		String data="";
+		String data1="";
 		try {
 		FileInputStream fis = new FileInputStream(IPathConstants.ExcelPath);
 		Workbook wb = WorkbookFactory.create(fis);
-		data = wb.getSheet(SheetName).getRow(Rowno).getCell(ColumnNo).getStringCellValue();
+		data1 = wb.getSheet(SheetName).getRow(Rowno).getCell(ColumnNo).getStringCellValue();
 		}
 		catch(Exception e)
 		{
 			e.printStackTrace();
 		}
-		return data;
+		return data1;
 	}
 	
 	/**
