@@ -8,6 +8,8 @@ public class MavenGit {
 	public void gitTest()
 	{
 		System.out.println("---Git Stage----");
+		System.out.println("---Changed----");
+		
 	}
 
 }
