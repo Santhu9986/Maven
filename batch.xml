@@ -12,6 +12,7 @@
       <class name="test.Test7"/>
       <class name="test.Test789"/>
       <class name="test.TestDeepika"/>
+      <class name="test.NewClass"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
