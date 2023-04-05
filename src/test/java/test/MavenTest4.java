@@ -1,7 +1,11 @@
 package test;
 
+import org.testng.annotations.Test;
+
 public class MavenTest4 {
-	public static void main(String[] args) {
+	@Test
+	public void mavenTest()
+	{
 		System.out.println("---Maven Test----");
 	}
 
