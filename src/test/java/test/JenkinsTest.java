@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class JenkinsTest {
 	
-	@Test
+	@Test(groups = "smoke")
 	public void jenkinsTest()
 	{
 		System.out.println("Jenkins Test");

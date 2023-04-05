@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class MavenGit {
 	
-	@Test
+	@Test(groups = "regression")
 	public void gitTest()
 	{
 		System.out.println("---Git Stage----");
