@@ -1,8 +1,11 @@
 package test;
 
+import org.testng.annotations.Test;
+
 public class Test789 {
 
-	public static void main(String[] args) {
+	@Test
+	public void test789Test(){
 
     System.out.println("i am adding test--sundeep");
 	}
