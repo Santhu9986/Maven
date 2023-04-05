@@ -12,7 +12,7 @@
       <class name="test.Test7"/>
       <class name="test.Test789"/>
       <class name="test.TestDeepika"/>
-      <class name="test.NewClass"/>
+      <class name="test.JenkinsTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
