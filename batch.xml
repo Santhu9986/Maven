@@ -8,7 +8,10 @@
       <class name="test.MavenTest2"/>
       <class name="test.MavenTest1"/>
       <class name="test.MavenTest"/>
-      <class name="test.ParameterAtCmd"/>
+      <class name="test.Test07"/>
+      <class name="test.Test7"/>
+      <class name="test.Test789"/>
+      <class name="test.TestDeepika"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
