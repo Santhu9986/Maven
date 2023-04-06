@@ -13,6 +13,7 @@
       <class name="test.Test789"/>
       <class name="test.TestDeepika"/>
       <class name="test.JenkinsTest"/>
+      <class name="test.ParameterAtCmd"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
