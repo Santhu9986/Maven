@@ -3,9 +3,17 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-     
+      <class name="test.JenkinsTest"/>
+      <class name="test.Test789"/>
+      <class name="test.MavenGit"/>
+      <class name="test.MavenTest4"/>
+      <class name="test.MavenTest2"/>
+      <class name="test.TestDeepika"/>
       <class name="test.MavenTest1"/>
-       <class name="test.MavenTest2"/>
+      <class name="test.MavenTest"/>
+      <class name="test.Test7"/>
+      <class name="test.ParameterAtCmd"/>
+      <class name="test.Test07"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

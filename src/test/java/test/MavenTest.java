@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class MavenTest {
 	
-	@Test
+	@Test(groups = "smoke")
 	public void mavenT()
 	{
 		System.out.println("----Maven Test----");
