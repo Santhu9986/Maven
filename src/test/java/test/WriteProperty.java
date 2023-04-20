@@ -1,6 +1,5 @@
 package test;
 import java.io.FileInputStream;
-import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Properties;
 
@@ -17,9 +16,9 @@ public class WriteProperty {
 		System.out.println(p.getProperty("browser"));
 		System.out.println(p.getProperty("url"));
 
-		FileOutputStream fos = new FileOutputStream("./Data/commonData.properties");
-		p.setProperty("browser", "firefox");
-		p.store(fos, null);
+//		FileOutputStream fos = new FileOutputStream("./Data/commonData.properties");
+//		p.setProperty("browser", "firefox");
+//		p.store(fos, null);
 	}
 
 }
