@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-05T10:18:27 IST" name="Default suite" finished-at="2023-04-05T10:18:27 IST" duration-ms="232">
+  <suite started-at="2023-04-19T21:59:45 IST" name="Default suite" finished-at="2023-04-19T21:59:45 IST" duration-ms="55">
     <groups>
     </groups>
-    <test started-at="2023-04-05T10:18:27 IST" name="Default test" finished-at="2023-04-05T10:18:27 IST" duration-ms="232">
-      <class name="test.MavenGit">
-        <test-method signature="gitTest()[pri:0, instance:test.MavenGit@614ca7df]" started-at="2023-04-05T10:18:27 IST" name="gitTest" finished-at="2023-04-05T10:18:27 IST" duration-ms="100" status="PASS">
+    <test started-at="2023-04-19T21:59:45 IST" name="Default test" finished-at="2023-04-19T21:59:45 IST" duration-ms="55">
+      <class name="test.Test7">
+        <test-method signature="test7Test()[pri:0, instance:test.Test7@614ca7df]" started-at="2023-04-19T21:59:45 IST" name="test7Test" finished-at="2023-04-19T21:59:45 IST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- gitTest -->
-      </class> <!-- test.MavenGit -->
+        </test-method> <!-- test7Test -->
+      </class> <!-- test.Test7 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

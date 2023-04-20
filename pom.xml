@@ -9,6 +9,7 @@
     <maven.compiler.target>11</maven.compiler.target>
   </properties>
   
+ 
   <build>
   <plugins>
       <plugin>
@@ -17,15 +18,14 @@
         <version>3.0.0</version>
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>batch.xml</suiteXmlFile>
+           <suiteXmlFile>${suitexml}</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>
 </plugins>
 </build>
 
-
-  <profiles>
+<profiles>
   <profile>
   <id>smoke</id>
    <build>
